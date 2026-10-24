@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-               git url: "https://github.com/kadimasum/heha", branch: "main"
+               git url: "https://github.com/KenanRicky/heha.git", branch: "main"
             }
         }
 
